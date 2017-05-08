@@ -1,0 +1,2 @@
+Debug log details:2017-05-07.
+Generic message from logger test:2017-05-07.
