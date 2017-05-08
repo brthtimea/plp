@@ -1,13 +1,13 @@
 # Write a script that reads your name from the console and prints it reversed in upper-case letters.
 
-userName = raw_input ('Please enter your name:' )
-reversedName = ""
+user_name = raw_input ('Please enter your name:' )
+reversed_name = ""
 
-for  i  in range(len(userName)):
-	reversedName += userName[-1 -i]
+for  i  in range(len(user_name)):
+	reversed_name += user_name[-1 -i]
 
-print('Reversed with for', reversedName.upper())
-print('Reversed with ::-1', userName[::-1].upper())
+print('Reversed with for', reversed_name.upper())
+print('Reversed with ::-1', user_name[::-1].upper())
 
 # word<start>:<stop>:<step>]
 # starts from the end, towards the first, taking each element. So it reverses word. This is applicable for lists/tuples as well.
