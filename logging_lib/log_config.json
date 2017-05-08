@@ -1,0 +1,29 @@
+{
+    "logging" : {
+        "debug": {
+            "level": "DEBUG",
+            "path": "debug_log.txt",
+            "msg": "Debug log details"
+        },
+        "info": {
+            "level": "INFO",
+            "path": "info_log.txt",
+            "msg": "Info log details"
+        },
+        "warning": {
+            "level": "WARNING",
+            "path": "warning_log.txt",
+            "msg": "Warning log details"
+        },
+        "error": {
+            "level": "ERROR",
+            "path": "error_log.txt",
+            "msg": "Error log details"
+        },
+        "critical": {
+            "level": "CRITICAL",
+            "path": "critical_log.txt",
+            "msg": "Critical log details"
+        }
+    }
+}
